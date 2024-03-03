@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.hat {
+    display: inline;
+    position: center;
+}
+
+.logo {
+    color: rgb(211, 159, 81);
+    width: 140px;
+    height: 130px;
+    margin: 0;
+    padding: 0px;
+}
+
+.text__logo {
+    color: rgb(219, 186, 136);
+}
+
+.nav {
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.link {
+    background: #ffffff;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px;
+}
+
+.content {
+    display: inline;
+}
+
+.wrapper {}
+
+.text {
+    color: rgb(219, 186, 136);
+}
+
+.link__friends {}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.dog {
+    margin: 0 auto;
+    padding: right;
+}
+
+.background {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Text {
+    color: grey;
+    display: flex;
+}
